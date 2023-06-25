@@ -9,51 +9,60 @@
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <title>Effective Solutions for Your Business</title>
         <link rel="stylesheet" href="./css/styles.css" />
+        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
         
         
  </head>
  <body>
-      <header>
-         <nav class="contacts">
-            <a href="./index.html" class="nav-logo link">Web<span class="color-web">Studio</span></a>
-             
-            <ul class="list">
+   
+    <div class="line">
+        <header class="top-line">
+         
+          <a href="./index.html" class="nav-logo link">Web<span class="color-web">Studio</span></a>
+          <nav class="contacts">
+             <ul class="list">
                      <li><a href="./index.html" class="nav-contact link">Studio</a></li>
                      <li><a href="./portfolio.html" class="nav-contact link">Portfolio</a></li>
                      <li><a href="" class="nav-contact link">Contacts</a></li>
              </ul>
    
-         </nav>
-         <address class="address">
+          </nav>
+          <address class="address">
 
              <ul class="list">
                  <li><a href="mailto:info@devstudio.com" class="list-address link">info@devstudio.com</a></li>
                  <li><a href="tel:+110001111111" class="list-address link">+11 (000) 111-11-11</a></li>
              </ul>
          
-            </address>
-       
-      </header>
+          </address>
+        
+        </header>
+    </div>
 
      <main>
-         <section>
+         <section class="container">
             <h1>links</h1>
-            <ul class="list">
+            <div class="filters">
+             <ul class="list">
                  <li><button type="button" class="press">All</button></li>
                  <li><button type="button" class="press">Web Site</button></li>
                  <li><button type="button" class="press">App</button></li>
                  <li><button type="button" class="press">Design</button></li>
                  <li><button type="button" class="press">Marketing</button></li>
-            </ul>
-       
-            <ul class="list">
-                 <li>
+                 </ul>
+             </div>
+           
+              <ul class="project-card list">
+               
+                <div class="row1">
+                   <li>
                      <a href="" class="image-list link"><img src="./images/img21.jpg" 
                         alt="Banking App Interface Concept App"
                         width="360" />
-                     
+                    
                      <h2 class="list-name">Banking App Interface Concept</h2>
                      <p class="list-text">App</p>
+                     
                      </a>
                   </li>
                   <li>
@@ -72,6 +81,8 @@
                      <p class="list-text">App</p>
                      </a>
                  </li>
+               </div>
+               <div class="row2">
                  <li>
                      <a href="" class="image-list link"><img src="./images/img24.jpg" alt="Taxi Service Marketing"
                         width="360" />
@@ -96,6 +107,8 @@
                      <p class="list-text">Marketing</p>
                      </a>
                  </li>
+               </div>
+               <div class="row3">
                  <li>
                      <a href="" class="image-list link"><img src="./images/img28.jpg" alt="Instagram Stories Concept Design"
                         width="360" />
@@ -120,6 +133,7 @@
                      <p class="list-text">Web Site</p>
                      </a>
                  </li>
+               </div>
             </ul>
          </section>
 
@@ -133,6 +147,6 @@
          </p>
         
      </footer>
-
+   
 </body>
 </html>
