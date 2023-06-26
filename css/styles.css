@@ -1,10 +1,7 @@
 * {
   box-sizing: border-box;
 }
-html {
-    height: 100%;
-    
-}
+
 body {
     font-family: "Roboto", sans-serif;
     size: 16px;
@@ -111,6 +108,7 @@ nav {
 .section1 {
     background-color: var(--background-color);
     padding: 188px 0;
+    
 }
 
 .main-name {
@@ -120,7 +118,10 @@ nav {
     letter-spacing: 0.02em;
     color: #ffffff;
     width: 496px; 
-   
+   display: flex;
+   text-align: center;
+   flex-direction: column;
+   margin: 188px 472px 48px;
 }
     
 
@@ -139,7 +140,7 @@ nav {
     border: none;
     border-radius: 4px;
     justify-content: center;
-    
+    margin: 0 635px 188px;
 }
 .button:hover,
 .button:focus {
