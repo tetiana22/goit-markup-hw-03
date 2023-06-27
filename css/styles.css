@@ -92,6 +92,7 @@ body {
     line-height: 1.5;
     color: var(--link-color);
     text-decoration: none;
+    
 }
 
 .address-lst:hover,
@@ -159,10 +160,6 @@ body {
 .sect2-items {
     width: calc((100% - 72px) / 4);
 }
-.section3 {
-    padding-bottom: 120px; 
-}
-
 .name {
     font-weight: 500;
     font-size: 20px;
@@ -170,8 +167,19 @@ body {
     letter-spacing: 0.02em;
     color: var(--name-color);
     margin-bottom: 8px;
-    text-align: center; 
 }
+.text {
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section3 {
+    padding-bottom: 120px; 
+}
+
+
 .sect3-list {
     list-style: none;
     display: flex; 
@@ -181,14 +189,7 @@ body {
 .sect3-image {
     width: calc((100% - 48px) / 3); 
 }
-.text {
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-    
-}
+
 .photo {
     font-size: 36px;
     line-height: 1.11;
@@ -211,7 +212,23 @@ body {
     margin-bottom: 72px; 
 
 }
+.name4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--name-color);
+    margin-bottom: 8px;
+    text-align: center;
+}
+.text4 {
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
 
+}
 .sect4-list {
     list-style: none;
     display: flex; 
