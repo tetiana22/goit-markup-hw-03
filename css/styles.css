@@ -319,9 +319,11 @@ body {
     border-top: none;
 
 }
+.project-li {
+    width: calc((100% - 48px) / 3); 
+}
 .image-list {
     text-decoration: none;
-    width: calc((100% - 48px) / 3); 
 }
 .list-name {
     font-weight: 500;
