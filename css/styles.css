@@ -99,7 +99,7 @@ body {
 .address-lst:focus {
     color: #404bbf;
 }
-.section1 {
+.section-main {
     background-color: var(--background-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -141,12 +141,12 @@ body {
 .button:focus {
     background-color: #404BBF;
 }
-.sect2-list {
+.sect-wrap-list {
     list-style: none;
     display: flex;
     gap: 24px;
 }
-.section2 {
+.section-wrapper {
     padding: 120px 0;
 }
 .visually-hidden {
@@ -160,8 +160,9 @@ body {
     border: 0;
   }
 
-.sect2-items {
+.sect-wrap-items {
     width: calc((100% - 72px) / 4);
+    
 }
 .name {
     font-weight: 500;
@@ -178,18 +179,18 @@ body {
     line-height: 1.5;
 }
 
-.section3 {
+.section-img {
     padding-bottom: 120px; 
 }
 
 
-.sect3-list {
+.sect-img-list {
     list-style: none;
     display: flex; 
     gap: 24px; 
     margin-bottom: 120px;
 }
-.sect3-image {
+.sect-image-li {
     width: calc((100% - 48px) / 3); 
 }
 
@@ -201,7 +202,7 @@ body {
     color: var(--name-color); 
     margin-bottom: 72px;
 }
-.section4 {
+.hands {
     padding: 120px 0;
     background-color: #F4F4FD;
 }
@@ -215,7 +216,7 @@ body {
     margin-bottom: 72px; 
 
 }
-.name4 {
+.name-hands {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -224,7 +225,7 @@ body {
     margin-bottom: 8px;
     text-align: center;
 }
-.text4 {
+.text-hands {
     letter-spacing: 0.02em;
     color: var(--text-color);
     font-size: 16px;
@@ -232,17 +233,17 @@ body {
     text-align: center;
 
 }
-.sect4-list {
+.hands-list {
     list-style: none;
     display: flex; 
     gap: 24px;
     }
- .sect4-image {
+ .hands-image {
      background-color: #FFFFFF;
      width: calc((100% - 72px) / 4);
      border-radius: 0px 0px 4px 4px; 
     }
-.sect4-item {
+.hands-item {
     padding: 32px 16px;
 }
 
@@ -271,7 +272,7 @@ body {
     line-height: 1.5;
     max-width: 264px;
 }
-.section1-portfolio {
+.section-portfolio {
     padding-top: 96px; padding-bottom: 120px; 
 }
 .filters-list {
@@ -308,7 +309,7 @@ body {
     column-gap: 24px;
     row-gap: 48px; 
 }
-.row1 {
+.row {
     width: calc((100% - 48px) / 3); 
 }
 .project-card-list {
