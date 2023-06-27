@@ -312,7 +312,7 @@ body {
     column-gap: 24px;
     row-gap: 48px; 
 }
-.row {
+.row-li {
     width: calc((100% - 48px) / 3); 
 }
 .project-card-list {
