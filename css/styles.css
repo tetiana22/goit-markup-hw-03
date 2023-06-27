@@ -151,11 +151,11 @@ body {
 }
 
  .visually-hidden {
-        position: absolute;
-        left: -9999px;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
+    position: absolute;
+    height: 1px; 
+    width: 1px; 
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
  }
  
 
@@ -291,7 +291,7 @@ body {
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     padding: 12px 24px;
-    border-color: var(--border-color);
+    border: var(--border-color);
     border-radius: 4px; 
 
 }
