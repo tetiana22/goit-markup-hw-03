@@ -8,6 +8,12 @@ body {
     color: #434455;
     background-color: #ffffff;
   }
+  .logo {
+    text-decoration: none;
+  }
+  .list {
+    list-style: none;
+}
   :root {
     --logo-color: #4d5ae5;
     --logo-span-color: #2e2f42;
@@ -29,6 +35,7 @@ body {
     padding-right: 15px;
     
 }
+/*----------------------HEADER----------------------*/
 
 .page-head {
     border-bottom: 1px solid #e7e9fc;
@@ -48,16 +55,13 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    text-decoration: none;
     margin-right: 76px;
     
 }
 .color-web {
     color: var(--logo-span-color);
 }
-.list {
-    list-style: none;
-}
+
 .menu-list {
     display: flex;
     gap: 40px;
@@ -68,7 +72,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--list-color);
-    text-decoration: none;
     padding: 24px 0;
 }
 
@@ -91,14 +94,14 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--link-color);
-    text-decoration: none;
-    
 }
 
 .address-lst:hover,
 .address-lst:focus {
     color: #404bbf;
 }
+
+/*----------------------SECTION-MAIN-----------------------*/
 .section-main {
     background-color: var(--background-color);
     padding-top: 188px;
@@ -128,7 +131,6 @@ body {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -141,6 +143,7 @@ body {
 .button:focus {
     background-color: #404BBF;
 }
+/*------------------------SECTION-WRAPPER-----------------------*/
 .sect-wrap-list {
     list-style: none;
     display: flex;
@@ -182,6 +185,7 @@ body {
     line-height: 1.5;
 }
 
+/*------------------------SECTION-IMG----------------------*/
 .section-img {
     padding-bottom: 120px; 
 }
@@ -205,6 +209,7 @@ body {
     color: var(--name-color); 
     margin-bottom: 72px;
 }
+/*--------------------------------HANDS-----------------------------*/
 .hands {
     padding: 120px 0;
     background-color: #F4F4FD;
@@ -249,7 +254,7 @@ body {
 .hands-item {
     padding: 32px 16px;
 }
-
+/*---------------------------------FOOTER---------------------------*/
 .foot {
     background-color: var(--background-color);
     padding: 100px 0;
@@ -262,7 +267,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--logo-color);
-    text-decoration: none;
     display: inline-block; 
     margin-bottom: 16px; 
 }
@@ -275,6 +279,7 @@ body {
     line-height: 1.5;
     max-width: 264px;
 }
+/*-----------------------SECTION-PORTFOLIO----------------------*/
 .section-portfolio {
     padding-top: 96px; padding-bottom: 120px; 
 }
@@ -294,11 +299,9 @@ body {
     color: var(--logo-color);
     background-color: var(--batton-background-color);
     cursor: pointer;
-    font-family: "Roboto", sans-serif;
     padding: 12px 24px;
     border: var(--border-color);
     border-radius: 4px; 
-
 }
 .press:hover,
 .press:focus {
@@ -320,11 +323,8 @@ body {
 
 }
 .project-li {
-    flex-basis: calc((100% - 3 * 16px) / 3))
+    flex-basis: calc((100% - 3 * 16px) / 3)
     
-}
-.image-list {
-    text-decoration: none;
 }
 .list-name {
     font-weight: 500;
