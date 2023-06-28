@@ -1,8 +1,8 @@
-*,
- ::after, 
- ::before {
+ *,
+ *::after, 
+ *::before {
     box-sizing: border-box;
-}
+ }
 img {
     display: block;
 }
@@ -34,10 +34,10 @@ body {
 }
 .container {
     width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-left: 0 15px;
+    padding-right: 0 15px;
     
 }
 /*----------------------HEADER----------------------*/
@@ -176,7 +176,7 @@ body {
  
 
 .sect-wrap-items {
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
     }
 .name {
     font-weight: 500;
@@ -206,7 +206,7 @@ body {
     margin-bottom: 120px;
 }
 .sect-image-li {
-    width: calc((100% - 48px) / 3); 
+    flex-basis: calc((100% - 48px) / 3);
 }
 
 .photo {
@@ -256,7 +256,7 @@ body {
     }
  .hands-image {
      background-color: #FFFFFF;
-     width: calc((100% - 72px) / 4);
+     flex-basis: calc((100% - 72px) / 4);
      border-radius: 0px 0px 4px 4px; 
     }
 .hands-item {
