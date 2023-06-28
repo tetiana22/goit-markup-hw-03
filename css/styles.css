@@ -320,7 +320,8 @@ body {
 
 }
 .project-li {
-    width: calc((100% - 48px) / 3); 
+    flex-basis: calc((100% - 3 * 16px) / 3))
+    
 }
 .image-list {
     text-decoration: none;
