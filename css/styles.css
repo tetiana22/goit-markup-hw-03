@@ -1,4 +1,8 @@
-
+*,
+ ::after, 
+ ::before {
+    box-sizing: border-box;
+}
 img {
     display: block;
 }
@@ -43,9 +47,12 @@ body {
 }
 .page-head-container {
     display: flex;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .contacts {
-    display: flex;
+   display: flex;
     align-items: center;
 }
 .nav-logo {
