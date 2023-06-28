@@ -34,10 +34,9 @@ body {
 }
 .container {
     width: 1158px;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    padding-left: 0 15px;
-    padding-right: 0 15px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 /*----------------------HEADER----------------------*/
