@@ -34,8 +34,7 @@ body {
 }
 .container {
     width: 1158px;
-    margin-left: auto;
-    margin-left: auto;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -90,6 +89,7 @@ body {
 
 .address {
     font-style: normal;
+    margin-left: 250px;
    }
 .address-head {
     display: flex;
@@ -329,7 +329,7 @@ body {
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none;
-
+    width: 360px;
 }
 .project-li {
     width: calc((100% - 48px) / 3); 
