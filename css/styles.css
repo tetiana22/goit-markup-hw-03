@@ -3,6 +3,19 @@
  *::before {
     box-sizing: border-box;
  }
+ :root {
+    --logo-color: #4d5ae5;
+    --logo-span-color: #2e2f42;
+    --list-color: #2e2f42;
+    --link-color:  #434455;
+    --section-color: #2e2f42;
+    --name-color: #2e2f42;
+    --text-color:  #434455;
+    --background-color:  #2e2f42;
+    --batton-background-color:  #F4F4FD;
+    --footer-text-color: #F4F4FD;
+    --border-color: 1px solid #e7e9fc; 
+}
 img {
     display: block;
 }
@@ -19,19 +32,11 @@ body {
   .list {
     list-style: none;
 }
-  :root {
-    --logo-color: #4d5ae5;
-    --logo-span-color: #2e2f42;
-    --list-color: #2e2f42;
-    --link-color:  #434455;
-    --section-color: #2e2f42;
-    --name-color: #2e2f42;
-    --text-color:  #434455;
-    --background-color:  #2e2f42;
-    --batton-background-color:  #F4F4FD;
-    --footer-text-color: #F4F4FD;
-    --border-color: 1px solid #e7e9fc; 
+h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
 }
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -47,8 +52,8 @@ body {
 .page-head-container {
     display: flex;
     align-items: center;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .contacts {
    display: flex;
@@ -89,7 +94,7 @@ body {
 
 .address {
     font-style: normal;
-    margin-left: 250px;
+    margin-left: auto;
    }
 .address-head {
     display: flex;
@@ -107,7 +112,7 @@ body {
 .address-lst:hover,
 .address-lst:focus {
     color: #404bbf;
-    
+
 }
 
 /*----------------------SECTION-MAIN-----------------------*/
@@ -129,6 +134,7 @@ body {
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
     
    
 }
