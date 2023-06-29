@@ -51,8 +51,7 @@ h1, h2, h3, h4, p, ul {
 .page-head-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
 }
 .contacts {
    display: flex;
